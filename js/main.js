@@ -5,7 +5,7 @@
 
 
 
-
+  /* itt még nincs semmi*/
 
     /*confirm ("Ready to play?")
     prompt ("What is your name?")
