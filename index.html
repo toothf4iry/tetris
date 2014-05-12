@@ -83,10 +83,10 @@
             0%   {transform: rotate(0deg);}
             5%   {transform: translateX(100px)}
             25%  {transform: rotate(20deg);}
-            50%  {transform: rotate(0deg); transform: translateX(500px);}
-            55%  {transform: rotate(0deg);transform: translateX(450px);}
-            70%  {transform: rotate(0deg);transform: translateX(500px);background:navajowhite;}
-            100% {transform: rotate(-360deg);transform: translateX(-100px);}
+            50%  {transform: rotate(0deg) translateX(500px);}
+            55%  {transform: rotate(0deg) translateX(450px);}
+            70%  {transform: rotate(0deg) translateX(500px);background:navajowhite;}
+            100% {transform: rotate(-360deg) translateX(-100px);}
         }
 
         @-webkit-keyframes petAnim
@@ -94,21 +94,21 @@
             0%   {-webkit-transform: rotate(0deg);}
             5%   {-webkit-transform: translateX(100px)}
             25%  {-webkit-transform: rotate(20deg);}
-            50%  {-webkit-transform: rotate(0deg); -webkit-transform: translateX(500px);}
-            55%  {-webkit-transform: rotate(0deg);-webkit-transform: translateX(450px);}
-            70%  {-webkit-transform: rotate(0deg);-webkit-transform: translateX(500px);background:navajowhite;}
-            100% {-webkit-transform: rotate(-360deg);-webkit-transform: translateX(-100px);}
+            50%  {-webkit-transform: rotate(0deg) translateX(500px);}
+            55%  {-webkit-transform: rotate(0deg) translateX(450px);}
+            70%  {-webkit-transform: rotate(0deg) translateX(500px);background:navajowhite;}
+            100% {-webkit-transform: rotate(-360deg) translateX(-100px);}
         }
 
         @-moz-keyframes petAnim
         {
             0%   {-moz-transform: rotate(0deg);}
             5%   {-moz-transform: translateX(100px);}
-            25%  {-moz-transform: rotate(20deg);-moz-transform: translateX(500px);}
-            50%  {-moz-transform: rotate(0deg);-moz-transform: translateX(450px);}
+            25%  {-moz-transform: rotate(20deg) translateX(500px);}
+            50%  {-moz-transform: rotate(0deg) translateX(450px);}
             55%  {-moz-transform: rotate(0deg);}
-            70%  {-moz-transform: rotate(0deg);-moz-transform: translateX(500px);background:navajowhite;}
-            100% {-moz-transform: rotate(-360deg);-moz-transform: translateX(-100px);}
+            70%  {-moz-transform: rotate(0deg) translateX(500px);background:navajowhite;}
+            100% {-moz-transform: rotate(-360deg) translateX(-100px);}
         }
 
         /* ott játszódjon le ahol épp van a div az előző animáció közben, ne ugorjon vissza az elejére?*/
@@ -120,13 +120,12 @@
             0% {background-color: red;}
             100% {background-color: navajowhite;}
         }
-            }
+
 
         @keyframes petDisturb {
             0% {background-color: red;}
             100% {background-color: navajowhite;}
             }
-        }
 
 
 
